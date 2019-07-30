@@ -4,14 +4,13 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ChipsKernel-Fries
+kernel.string=Amethyst Kernel
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=X00T
-device.name2=X00TD
-device.name3=ASUS_X00TD
+device.name1=redmi4a
+device.name2=rolex
 supported.versions=8.1 - 9.0
 supported.patchlevels=2019-04 - 2019-07
 '; } # end properties
