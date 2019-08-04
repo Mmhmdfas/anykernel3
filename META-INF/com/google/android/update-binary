@@ -99,8 +99,8 @@ fi;
 
 ui_print "****************************************";
 ui_print "* $(file_getprop anykernel.sh kernel.string)";
-ui_print "* For Asus Zenfone Max Pro M1 ";
-ui_print "* By Ahmad Thoriq Najahi ";
+ui_print "* For Xiaomi Redmi 4A ";
+ui_print "* By Haikal Khairuddin (z4nyx) ";
 ui_print "****************************************";
 if [ -f version ]; then
   ui_print " ";
@@ -109,9 +109,9 @@ if [ -f version ]; then
   done < version;
   ui_print " ";
 fi;
-ui_print "- Checking ChipsImage";
-ui_print "- Founded ChipsImage ";
-ui_print "- Chips Codename: Fries ";
+ui_print "- Checking AmethystImage";
+ui_print "- Founded AmethystImage ";
+ui_print "- Amethyst Codename: LA.UM.7.6.r1-05500-89xx.0 ";
 unmount_all;
 if ! is_mounted /system; then
   $bb mount -o ro -t auto /system;
@@ -268,6 +268,6 @@ sleep 1
 
 unmount_all;
 
-ui_print "****************************************";
-ui_print "* ChipsKernel-Fries Installed!!!";
-ui_print "****************************************";
+ui_print "**************************************************";
+ui_print "* Amethyst: LA.UM.7.6.r1-05500-89xx.0 Installed!!!";
+ui_print "**************************************************";
