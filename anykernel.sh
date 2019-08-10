@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Amethyst Kernel
+kernel.string=SteelHeart Kernel
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
