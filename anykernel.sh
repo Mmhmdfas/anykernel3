@@ -12,7 +12,6 @@ do.cleanuponabort=0
 device.name1=redmi4a
 device.name2=rolex
 supported.versions=8.1 - 9.0
-supported.patchlevels=2019-06 - 2019-12
 '; } # end properties
 
 # shell variables
