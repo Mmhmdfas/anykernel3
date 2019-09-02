@@ -109,9 +109,9 @@ if [ -f version ]; then
   done < version;
   ui_print " ";
 fi;
-ui_print "- Checking SteelHeartImage";
-ui_print "- Founded SteelHeartImage ";
-ui_print "- SteelHeart Codename: LA.UM.7.6.r1-05500-89xx.0 ";
+ui_print "- Checking SmImage";
+ui_print "- Founded Image ";
+ui_print "- Codename: LA.UM.7.6.r1-05900-89xx.0 ";
 unmount_all;
 if ! is_mounted /system; then
   $bb mount -o ro -t auto /system;
@@ -269,5 +269,5 @@ sleep 1
 unmount_all;
 
 ui_print "**************************************************";
-ui_print "SteelHeart-Q.1-LA.UM.7.6.r1-05500-89xx.0 Installed!";
+ui_print "Random-Kornol-LA.UM.7.6.r1-05900-89xx.0 Installed!";
 ui_print "**************************************************";
