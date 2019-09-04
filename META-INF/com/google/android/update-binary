@@ -109,7 +109,7 @@ if [ -f version ]; then
   done < version;
   ui_print " ";
 fi;
-ui_print "- Checking SmImage";
+ui_print "- Checking Image";
 ui_print "- Founded Image ";
 ui_print "- Codename: LA.UM.7.6.r1-05900-89xx.0 ";
 unmount_all;
