@@ -100,7 +100,7 @@ fi;
 ui_print "****************************************";
 ui_print "* $(file_getprop anykernel.sh kernel.string)";
 ui_print "* For Xiaomi Redmi 4A ";
-ui_print "* By Muhammad Fadlyas (@Mmhmdfas) ";
+ui_print "* DarkEagle Kernel By Noname";
 ui_print "****************************************";
 if [ -f version ]; then
   ui_print " ";
@@ -269,5 +269,5 @@ sleep 1
 unmount_all;
 
 ui_print "**************************************************";
-ui_print "Random-Kornol-LA.UM.7.6.r1-05900-89xx.0 Installed!";
+ui_print "      LA.UM.7.6.r1-05900-89xx.0 Installed!";
 ui_print "**************************************************";
