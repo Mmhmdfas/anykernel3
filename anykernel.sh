@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Hoi Bro!
+kernel.string=Hai Palkon!!
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
